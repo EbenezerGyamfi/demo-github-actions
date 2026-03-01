@@ -38,4 +38,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ebenezer97/frontend-app:latest
+          tags: ebenezer97/frontend-app:${{ github.sha }}
